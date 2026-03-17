@@ -42,7 +42,15 @@ Edit `package.json` to update your project name and description:
 npm install
 ```
 
-### 4. Setup Environment Variables
+### 4. Build TypeScript
+
+Compile TypeScript to JavaScript:
+
+```bash
+npm run build
+```
+
+### 5. Setup Environment Variables
 
 Create a `.env` file in the root directory:
 
@@ -56,7 +64,7 @@ GEMINI_API_KEY=your_gemini_api_key
 CLIENT_URL=http://localhost:3000
 ```
 
-### 5. Run the Development Server
+### 6. Run the Development Server
 
 ```bash
 npm run dev
