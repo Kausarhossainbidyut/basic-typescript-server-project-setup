@@ -56,7 +56,8 @@ Create a `.env` file in the root directory:
 
 ```env
 PORT=5000
-MONGO_CONNECTION_STRING=mongodb://127.0.0.1:27017/your_database_name
+# MONGO_CONNECTION_STRING=mongodb+srv://<username>:<password>@cluster0.mongodb.net/your_database_name?retryWrites=true&w=majority   || mongodb atlas database
+MONGO_CONNECTION_STRING=mongodb://127.0.0.1:27017/your_database_name       || local mongodb database
 BCRYPT_SALT_ROUNDS=12
 JWT_SECRET=your_super_secret_key
 JWT_EXPIRES_IN=7d
